@@ -16,6 +16,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Math, Math Expressions, Mathematical Expressions, C#, Extensions, EMDD</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
