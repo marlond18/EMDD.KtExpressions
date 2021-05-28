@@ -15,7 +15,7 @@ https://www.nuget.org/packages/EMDD.KtExpressions/
 `<PackageReference Include="EMDD.KtExpressions" Version="*.*.*" />`
 
 ## Motivation
-- Yeah basically, I needed some mathematical expression implementations for my masters thesis in civil engineering which requires the manipulation of piecewise function. I was unable to find one that fits needs so I had to build it from scratch.
+- Yeah basically, I needed some mathematical expression implementations for my masters thesis in civil engineering which requires the manipulation of piecewise function. I was unable to find one that fits my needs so I had to build one from scratch.
 
 
 ## Usage
