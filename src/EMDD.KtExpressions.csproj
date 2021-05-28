@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Marlon Dumal-is</Authors>
+    <Version>1.0.0</Version>
+    <Company>EMDD</Company>
+    <LangVersion>9.0</LangVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Collection of Mathematical Expressions</Description>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/marlond18/EMDD.KtExpressions.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/marlond18/EMDD.KtExpressions.git</RepositoryUrl>
+    <PackageIcon>emd2.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Math, Math Expressions, Mathematical Expressions, C#, Extensions, EMDD</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>9</LangVersion>
+    <OutputPath>D:\Programming Work\EMDD.KtExpressions\build\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>9</LangVersion>
+    <OutputPath>D:\Programming Work\EMDD.KtExpressions\build\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\EMDD.Kt.Extensions\src\Images\emd2.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EMDD.KtPolynomials" Version="1.0.0" />
+  </ItemGroup>
+</Project>
